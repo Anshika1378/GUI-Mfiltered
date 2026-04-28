@@ -32,8 +32,8 @@ const incidents = [
 
 export default function AdFraudPage() {
   return (
-    <main className="mx-auto min-h-screen max-w-7xl px-4 py-8 sm:px-6 lg:px-8 text-black dark:text-slate-100">
-      <div className="mb-8 rounded-[2rem] border border-slate-200/70 bg-white/90 p-6 shadow-soft dark:border-slate-800/70 dark:bg-slate-950/80 text-black dark:text-slate-100">
+    <main className="mx-auto min-h-screen max-w-7xl px-4 py-8 sm:px-6 lg:px-8 text-black dark:text-slate-200">
+      <div className="mb-8 rounded-[2rem] border border-slate-200/70 bg-white/90 p-6 shadow-soft dark:border-slate-800/70 dark:bg-slate-950/80 text-black dark:text-slate-200">
         <div className="flex flex-col gap-6 xl:flex-row xl:items-end xl:justify-between">
           <div className="space-y-3">
             <p className="text-sm uppercase tracking-[0.3em] text-brand-600 dark:text-brand-400">Ad Fraud Detection</p>
@@ -44,7 +44,10 @@ export default function AdFraudPage() {
           </div>
           <div className="flex flex-wrap gap-3">
             <ThemeToggle />
-            <Button href="/" className="bg-slate-100 text-black hover:bg-slate-200 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800">
+            <Button
+              href="/"
+              className="border border-slate-200 !bg-slate-100 !text-slate-900 shadow-sm shadow-slate-200/50 hover:!bg-slate-200 dark:border-slate-700 dark:!bg-slate-900 dark:!text-slate-100 dark:hover:!bg-slate-800"
+            >
               Back to home
             </Button>
           </div>

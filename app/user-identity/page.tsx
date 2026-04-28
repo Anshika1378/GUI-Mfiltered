@@ -29,7 +29,10 @@ export default function UserIdentityPage() {
           </div>
           <div className="flex flex-wrap gap-3">
             <ThemeToggle />
-            <Button href="/" className="bg-slate-100 text-black hover:bg-slate-200 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800">
+            <Button
+              href="/"
+              className="border border-slate-200 !bg-slate-100 !text-slate-900 shadow-sm shadow-slate-200/50 hover:!bg-slate-200 dark:border-slate-700 dark:!bg-slate-900 dark:!text-slate-100 dark:hover:!bg-slate-800"
+            >
               Back to home
             </Button>
           </div>
